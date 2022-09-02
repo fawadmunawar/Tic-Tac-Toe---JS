@@ -1,0 +1,44 @@
+
+
+body{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+hr{
+    border: 1px solid #1370bd;
+}
+
+#board{
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+
+.tile{
+    height: 147px;
+    width: 147px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9rem;
+}
+
+
+
+#one, #two, #four, #five, #seven, #eight{
+    border-right: 3px solid black;
+}
+
+#one, #two, #three, #four, #five, #six{
+    border-bottom: 3px solid black;
+}
+
+.tile:hover{
+    background-color: lightgray;
+}
+
